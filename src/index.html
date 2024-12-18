@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria;s Porfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Maria Longe</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Maria Longe</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="ToggleEvent()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <li><a href="#About" onclick="ToggleEvent()">About</a></li>
+                <li><a href="#Experience" onclick="ToggleEvent()">Experience</a></li>
+                <li><a href="#Projects" onclick="ToggleEvent()">Projects</a></li>
+                <li><a href="#Contact" onclick="ToggleEvent()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
