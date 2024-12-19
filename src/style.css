@@ -148,3 +148,65 @@ a:hover {
 
 /*SECTIONS*/
 
+section {
+    margin: 0 3rem;
+    padding-top: 4vh;
+    height: 96vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/*PROFILE SECTION*/
+
+#profile {
+    gap: 5rem;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p {
+    font-weight: 400;
+}
+
+.section_text_p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#social-container {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/*ICONS*/
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
